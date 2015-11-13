@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  height: 2em;
+  height: 1.5em;
   text-align: center;
 }
 
@@ -23,16 +23,35 @@ body {
 
 }
 
+.visuals > img {
+  margin-top: 1.4em;
+  height: 25em;
+}
+
 .hud {
 background-color: rgba(86, 86, 46, .90);#3E2C1A, 90%;
 width: 95%;
 height: 8em;
 margin-left: auto;
 margin-right: auto;
+border-radius: 5px;
 }
 
 .text {
   font-size: 1.35em;
-  height: 4em;
+  height: 3.3em;
   padding-top: .1em;
+  margin-bottom: 0em;
+}
+
+button {
+  height: 4em;
+  margin-top: 0em;
+  margin-left: .5em;
+  margin-right: .5em;
+  border-radius: 5px;
+  background-color: #51542E;
+  border: 2px solid #B4763D;
+  font-size: .8em;
+  font-weight: 800;
 }
