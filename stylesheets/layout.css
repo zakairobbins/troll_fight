@@ -20,7 +20,7 @@ body {
 
 .visuals {
   height: 28em;
-
+  margin-bottom: 0em;
 }
 
 .visuals > img {
@@ -31,17 +31,34 @@ body {
 .hud {
 background-color: rgba(86, 86, 46, .90);#3E2C1A, 90%;
 width: 95%;
-height: 8em;
+height: 10em;
 margin-left: auto;
 margin-right: auto;
 border-radius: 5px;
 }
 
+.action-menu > div {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-top: 1em;
+}
+
+
+table {
+  /*table-layout: fixed;*/
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .text {
   font-size: 1.35em;
-  height: 3.3em;
-  padding-top: .1em;
-  margin-bottom: 0em;
+  height: 2.5em;
+}
+.text > p {
+  margin-top: 0em;
+  padding-top: .5em;
 }
 
 button {

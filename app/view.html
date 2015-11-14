@@ -3,12 +3,12 @@
 <head>
   <title>Troll Fight!</title>
   <link type="text/css" rel="stylesheet" href="../stylesheets/layout.css"/>
+  <script type="text/javascript" src="jquery/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="model.js"></script>
+  <script type="text/javascript" src="controller.js"></script>
 </head>
 <body>
-  <script type="text/javascript" src="jquery/jquery-2.1.4.js"></script>
-  <script src="model.js"></script>
-  <script src="controller.js"></script>
-
+  <div class="background">
   <div class ="header">
   <h1>TROLL FIGHT!</h1>
   </div>
@@ -23,13 +23,36 @@
         </p>
       </div>
       <div class="action-menu">
+        <div class="hero-stats">
+          <table>
+          <th>Brave Adventurer</th>
+            <tr>
+              <td>Health: </td> <td>100</td>
+            </tr>
+            <tr>
+              <td>Potions: </td> <td>3</td>
+            </tr>
+          </table>
+        </div>
         <div class="action-buttons">
-          <button>Attack!</button>
-          <button>Use Potion!</button>
-          <button>Steal!</button>
-          <button>Flee!</button>
+          <button class="attack">Attack!</button>
+          <button class="potion">Use Potion!</button>
+          <button class="steal">Steal!</button>
+          <button class="flee">Flee!</button>
+        </div>
+        <div class="troll-stats">
+          <table>
+          <th>Vile Troll</th>
+            <tr>
+              <td>Health: </td> <td>100</td>
+            </tr>
+            <tr>
+              <td>Potions: </td> <td>?</td>
+            </tr>
+          </table>
         </div>
       </div>
+    </div>
     </div>
   </div>
 
